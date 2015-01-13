@@ -159,7 +159,7 @@
   font-size: 2em;
 }
 .fa-inverse {
-  color: #ffffff;
+  color: #f6facd;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
@@ -263,8 +263,14 @@
 .fa-list-alt:before {
   content: "\f022";
 }
-.fa-lock:before {
-  content: "\f023";
+.fa-file-code-0:before {
+  content: "\f1c9";
+}
+.fa-btc:before {
+  content: "\f15a";
+}
+.fa-cogs:before {
+  content: "\f085";
 }
 .fa-flag:before {
   content: "\f024";
@@ -519,7 +525,7 @@
   content: "\f079";
 }
 .fa-shopping-cart:before {
-  content: "\f07a";
+  content: "\f0c1";
 }
 .fa-folder:before {
   content: "\f07b";
@@ -672,6 +678,9 @@
 }
 .fa-filter:before {
   content: "\f0b0";
+}
+.fa-link:before {
+  content: "\f0c1";
 }
 .fa-briefcase:before {
   content: "\f0b1";
@@ -901,8 +910,8 @@
 .fa-desktop:before {
   content: "\f108";
 }
-.fa-laptop:before {
-  content: "\f109";
+.fa-shopping-cart:before {
+  content: "\f07a";
 }
 .fa-tablet:before {
   content: "\f10a";

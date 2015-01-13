@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: "#f6facd";
 }
 
 .text-muted {
@@ -14,7 +15,8 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    /* color: #fed136; */
+    color: #3102EB;
 }
 
 p {
@@ -56,12 +58,20 @@ h6 {
     font-weight: 700;
 }
 
+#personal-description {
+    padding-top: 2cm;
+}
+
 .img-centered {
     margin: 0 auto;
 }
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-beige {
+    background-color: #f6facd;
 }
 
 .bg-darkest-gray {
@@ -119,14 +129,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #3102EB;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
+    color: #f6facd;
+    background-color: #3102EB;
 }
 
 .btn-xl:hover,
@@ -135,8 +145,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    color: #3102eb;
+    background-color: #137801;
 }
 
 .btn-xl:active,
@@ -160,8 +170,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #2afa05;
+    background-color: #2afa05;
 }
 
 .btn-xl .badge {
@@ -175,15 +185,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,/*cursive*/;
+    color: #F6FACD;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #f6facd;
 }
 
 .navbar-default .navbar-collapse {
@@ -209,13 +219,13 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #f6facd;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #f6facd;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -253,7 +263,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        /* background-color: #222; */
+        background-color: #3102EB;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -288,12 +299,13 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 15px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 15px;
+    color: #f6facd;
 }
 
 @media(min-width:768px) {
@@ -308,15 +320,16 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        color: #f6facd;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 50px;
     }
 }
 
@@ -343,6 +356,14 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+}
+
+#services {
+    background-color: #f6facd;
+}
+
+#about {
+    background-color: #f6facd;
 }
 
 .service-heading {
@@ -659,7 +680,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #f6facd;
 }
 
 section#contact .form-group {
@@ -673,10 +694,12 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    background-color: #f6facd;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    background-color: #f6facd;
 }
 
 section#contact .form-control:focus {
@@ -719,6 +742,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #f6facd;
 }
 
 footer span.copyright {
